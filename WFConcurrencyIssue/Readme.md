@@ -2,7 +2,7 @@
 
 - Create a Oracle XE instance in a docker container using this repo: https://github.com/fuzziebrain/docker-oracle-xe
 
-- Logon as SYS with SYSDBA permissions AND Execute the following commands:
+- Logon as SYS with SYSDBA permissions and execute the following commands:
     ```sql
     alter session set "_ORACLE_SCRIPT"=true; 
 
